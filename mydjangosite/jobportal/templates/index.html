@@ -7,34 +7,30 @@
 {% block body %}
 
 {% include 'navigation.html' %}
-<div class ="container-fluid" style="margin-top:1%">
+<div class =" row container-fluid" style="margin-top:1%">
     <img src="{% static 'images/bg.PNG' %}" class="img-responsive" style ="height:810px; width:1520px " >
 
-    <div class="container-fluid" style="background-color : black">
-          <div class="row p-0">
-                <div class="col-sm-3  ">
-                    <img src="{% static 'images/Pythonic.png' %}" alt="" style="width:260px; height:170px ; object-fit:contain">
+    <div class="container-fluid " style="background-color : black">
+                 
+
+                <div class="col-sm  text-center m-2 pt-2" style="font-weight : bold ; font-size : 20px ; text-align : center">
+                  
+                       <span style="color : white ">All rights reservedⒸ Desinged by Pythonic-2023 <br></span>
+
+                       <span style="font-weight : bold ; font-size : 30px ; color : white  ">
+                           <span class=" " style="font-weight : bold ; font-size : 20px">Follow us :</span>
+                           <span><i class="fa-brands fa-twitter "></i></span>
+                           <span><i class="fa-brands fa-square-github "></i></span>
+                           <span><i class="fa-brands fa-facebook "></i></span>
+                           <span><i class="fa-brands fa-instagram "></i></span>
+                       </span><br>
+                       <img src="{% static 'images/Pythonic_logo.png' %}" alt="" style="width:160px; height:70px ; object-fit:contain">       
                 </div>
-              <div class="col-sm-4  text-center">
-                  <span style="font-weight : bold ; font-size : 20px ; text-align : center">
-                    <span style="color : white ">All rights reservedⒸ Desinged by Pythonic-2023</span>
-                  </span>
-              </div>
-
-               <div class="col-sm-3   text-light"  style="padding-left : 30%">
-                   <span class=" " style="font-weight : bold ; font-size : 20px">Follow us :</span>
-
-                   <span style="font-weight : bold ; font-size : 30px ; color : white ">
-                       <span><i class="fa-brands fa-twitter "></i></span>
-                       <span><i class="fa-brands fa-square-github "></i></span>
-                       <span><i class="fa-brands fa-facebook "></i></span>
-                       <span><i class="fa-brands fa-instagram "></i></span>
-                   </span>
-               </div>
-
-          </div>
-
     </div>
+</div>
+
+<div class="col-sm-4  ">
+    
 </div>
 
     {% endblock %}
