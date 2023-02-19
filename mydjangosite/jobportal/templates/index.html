@@ -1,9 +1,43 @@
 
 
+
+
 {% load static %}
 
 {% block body %}
 
 {% include 'navigation.html' %}
+<div class ="container-fluid" style="margin-top:1%">
+    <img src="{% static 'images/bg.PNG' %}" class="img-responsive" style ="height:810px; width:1520px " >
 
-{% endblock %}
+    <div class="container-fluid" style="background-color : black">
+          <div class="row p-0">
+                <div class="col-sm-3 m-3 ">
+                    <img src="{% static 'images/Pythonic.png' %}" alt="" style="width:260px; height:170px object-fit:contain">
+                </div>
+              <div class="col-sm-4 m-5 p-4 text-center">
+                  <span style="font-weight : bold ; font-size : 20px ; font-align : center">
+                    <span style="color : white ">All rights reservedⒸ Desinged by Pythonic-2023</span>
+                  </span>
+              </div>
+
+               <div class="col-sm-3  p-5 text-light"  style="padding-left : 30%">
+                   <span class="p-4 " style="font-weight : bold ; font-size : 20px">Follow us :</span>
+
+                   <span style="font-weight : bold ; font-size : 30px ; font-color : white ">
+                       <span><i class="fa-brands fa-twitter p-2"></i></span>
+                       <span><i class="fa-brands fa-square-github p-2"></i></span>
+                       <span><i class="fa-brands fa-facebook p-2"></i></span>
+                       <span><i class="fa-brands fa-instagram p-2"></i></span>
+                   </span>
+               </div>
+
+          </div>
+
+    </div>
+</div>
+
+
+
+
+    {% endblock %}
