@@ -20,5 +20,8 @@ from jobportal.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index,name="index"),
+    path('admin_login',admin_login,name="admin_login"),
+    path('user_login',user_login,name="user_login"),
+    path('company_login',company_login,name="company_login"),
 
 ]
